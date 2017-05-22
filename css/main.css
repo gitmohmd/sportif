@@ -95,6 +95,12 @@ textarea {
    Author's custom styles
    ========================================================================== */
 /*=============================== header navbar =======================*/
+.container-fluid{
+  position: sticky;
+  z-index: 20;
+  top: 0;
+}
+
 .navbar{
   background-color: pink;
 }
@@ -103,8 +109,30 @@ textarea {
   width: 60%;
   margin: auto;
 }
+/*======================== footer ============================*/
+footer {
+  background-color: pink;
+  position: sticky;
+  z-index: 20;
+  bottom: 0;
+}
 
+footer li {
+  list-style-type: none;
+}
 
+footer ul li a  {
+  text-decoration: none;
+  font-size: 40px;
+
+}
+ footer ul {
+   display: flex;
+   justify-content: space-around;
+ }
+
+footer a {
+}
 
 
 
