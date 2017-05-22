@@ -94,34 +94,22 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-
-* {
-  margin: 0;
-  padding: 0;
+.navbar{
+  background-color: pink;
 }
-header {
-  position: sticky;
-  top: 0;
-  z-index: 20;
+#myCarousel{
+  width: 60%;
+  margin: auto;
 }
 
-.navbar a img {
-  width: 70px;
-  height: 70px;
-  position: absolute;
-  top: -5px;
-  left: 0;
-}
 
-iframe {
-  width: 80%;
-}
 
-footer ul {
-  display: flex;
-  justify-content: space-around;
-}
+
+
+
+
+
+
 
 
 
